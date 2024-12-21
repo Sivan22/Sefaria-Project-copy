@@ -29,7 +29,7 @@ services:
     working_dir: /app
     volumes:
       - .:/app
-    command: npm start
+    command: npm install nodemon -g &&  npm start
     ports:
       - "3000:3000"
 
